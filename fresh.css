@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+#re{
+    background-color: white ;   
+    position: sticky;
+    top: 0;
+}
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+header #head{
+        display: inline-block;
+        margin: 20px 0 0 10px;
+        max-width: 100px;
+        font-weight: bolder;
+        text-shadow: 1.5px 0.5px 1.5px;
+        
+}
+.fa-brands{
+    font-size: 35px;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 19px;
+    min-width: 450px;
+    
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0 10px 0 10px;
+    
+}
+.nav,.fa,.fa-solid{
+    color: rgb(88, 87, 87);
+    text-decoration: none;
+}
+
+.nav:hover{
+    color: orangered;
+}
+
+#tree{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(245, 242, 242);
+}
+#pic{
+    background-image: url(organic.jpg);
+    
+    width: 100%;
+    height: 510px;
+    background-size:cover;   
+    
+}
+.offer{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 220px;
+    color: rgb(39, 84, 32);
+    font-weight: 700;
+    
+}
+#offer{
+    font-size: 27px;
+    text-align: center;
+    position: relative;
+    top: 225px;
+    color: rgb(39, 84, 32);
+    font-weight: 700;  
+}
+#protect{
+    display: flex;
+    justify-content: center;
+}
+.pro{
+    margin: 20px 100px 20px 100px;
+    padding: 11px 0px 11px 0px;
+    width:300px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.pro:hover{
+    background-color: whitesmoke;
+    color: rgb(33, 32, 32);
+    transition: 0.5s;
+}
+.det{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+#ne{
+  text-align: center;
+  margin: 50px 0 50px 0;
+  
+}
+.wo{
+    margin: 50px 80px 30px 80px;
+    color: rgb(88, 87, 87);
+    text-decoration: none;
+    
+}
+
+.wo:hover{
+    border-bottom: 2px groove rgb(14, 12, 12);
+    transition:0.1s  ;
+    
+}
+
+
+#new{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
+ 
+}
+#new img {
+    width: 300px;
+    height: 300px;
+
+}
+#apple{
+    width: 350px;
+    height: 350px;
+    background-color:rgb(249, 241, 241);
+    margin-right: 35px;
+    padding-left: 25px;
+}
+#tomato{
+    width: 350px;
+    height: 350px;
+    background-color:rgb(249, 241, 241);
+    margin-right: 35px;
+    padding-left: 25px;
+}
+#potato{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(249, 241, 241);
+    padding-left: 25px;
+}
+#new p {
+    color: black;
+    margin-left: 35px;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+#new a:hover{
+    opacity: 0.7;
+}
+#para{
+    text-align: center;
+}
+#one{
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 20px 0 0 10px;
+}
+#two{
+    font-size: 35px;
+}
+#pho img{
+margin:35px 0 25px 0;
+width:50%;
+height:450px;
+float: left;
+}
+#foot{
+    clear: both;
+    background-color: black;
+    
+    color: white;
+    padding: 25px 15px 15px 85px;
+     
+}
+#foot p{
+    font-size: 12px;
+}
+#foot input{
+    padding: 6px 20px 6px 20px;
+    margin: 10px 0 10px 0;
+    background-color: black;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 7px 0 0 7px;
+}
+#foot button{
+    padding: 6px 20px 6px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 0 7px 7px 0;
+    color: gray;
+}
+#copy{
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
